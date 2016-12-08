@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     var firstNumber = 0
     var secondNumber = 0
     var operation = ""
+    var numbers = [Int]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -85,25 +86,32 @@ class ViewController: UIViewController {
     }
     @IBAction func operationTapped(_ sender: AnyObject) {
         isTypingNumber = false
-        firstNumber = Int(display.text!)!
+        numbers.append(Int(display.text!)!)
         operation = sender.currentTitle!!
     }
     @IBAction func equalsTapped(_ sender: AnyObject) {
         isTypingNumber = false
-        secondNumber = Int(display.text!)!
+        numbers.append(Int(display.text!)!)
         var result = 0
         
         if operation == "+" {
-            result = add(left: firstNumber, right: secondNumber)
+            result = add(left: numbers[0], right: numbers[1])
         } else if operation == "-" {
-            result = subtract(left: firstNumber, right: secondNumber)
+            result = subtract(left: numbers[0], right: numbers[1])
         } else if operation == "x" {
-            result = multiply(left: firstNumber, right: secondNumber)
+            result = multiply(left: numbers[0], right: numbers[1])
         } else if operation == "÷" {
-            result = divide(left: firstNumber, right: secondNumber)
+            result = divide(left: numbers[0], right: numbers[1])
+        } else if operation == "%" {
+            result = mod(left: numbers[0], right: numbers[1])
+        } else if operation == "Avg" {
+            result = avg(nums: numbers)
+        } else if operation == "Count" {
+            result = count(nums: numbers)
         } else {
-            result = 333
+            result = fact(num: numbers[0])
         }
+        numbers.removeAll()
         display.text = "\(result)"
     }
 }
