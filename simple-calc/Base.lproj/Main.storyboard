@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -17,15 +17,15 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gKO-ng-Y6K">
-                                <rect key="frame" x="0.0" y="112" width="375" height="469.5"/>
+                                <rect key="frame" x="0.0" y="172" width="768" height="720.5"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4hX-Q6-ZQD">
-                                        <rect key="frame" x="11" y="8" width="353" height="31"/>
+                                        <rect key="frame" x="22.5" y="8" width="723" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <rect key="contentStretch" x="0.14999999999999999" y="0.0" width="1" height="1"/>
                                         <nil key="textColor"/>
@@ -33,7 +33,7 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HO-FN-5X0">
-                                        <rect key="frame" x="11" y="323.5" width="55.5" height="65"/>
+                                        <rect key="frame" x="22.5" y="496.5" width="113.5" height="99.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="1"/>
@@ -42,7 +42,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ2-9R-eTe">
-                                        <rect key="frame" x="112.5" y="83.5" width="50" height="64"/>
+                                        <rect key="frame" x="230.5" y="128" width="102.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Count"/>
@@ -51,7 +51,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ipK-KM-M1M">
-                                        <rect key="frame" x="11" y="83.5" width="55.5" height="65"/>
+                                        <rect key="frame" x="22.5" y="128" width="113.5" height="99.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Avg"/>
@@ -60,7 +60,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YFD-ax-GoC">
-                                        <rect key="frame" x="208.5" y="83.5" width="52" height="64"/>
+                                        <rect key="frame" x="427" y="128" width="106.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Fact"/>
@@ -69,7 +69,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVk-bd-xyX">
-                                        <rect key="frame" x="208.5" y="403.5" width="52" height="65"/>
+                                        <rect key="frame" x="427" y="619" width="106.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="="/>
@@ -78,7 +78,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wHZ-EJ-Ykb">
-                                        <rect key="frame" x="112.5" y="323.5" width="51" height="65"/>
+                                        <rect key="frame" x="230.5" y="496.5" width="104.5" height="99.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="2"/>
@@ -87,7 +87,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JCv-Hx-uVr">
-                                        <rect key="frame" x="208.5" y="323.5" width="52" height="65"/>
+                                        <rect key="frame" x="427" y="496.5" width="106.5" height="99.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="3"/>
@@ -96,7 +96,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9a-bz-CGE">
-                                        <rect key="frame" x="208.5" y="243.5" width="52" height="65"/>
+                                        <rect key="frame" x="427" y="373.5" width="106.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="6"/>
@@ -105,7 +105,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wBx-Ad-c1F">
-                                        <rect key="frame" x="112.5" y="243.5" width="51" height="65"/>
+                                        <rect key="frame" x="230.5" y="373.5" width="104.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="5"/>
@@ -114,7 +114,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bXv-h6-fK9">
-                                        <rect key="frame" x="11" y="243.5" width="56" height="65"/>
+                                        <rect key="frame" x="22.5" y="373.5" width="114.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="4"/>
@@ -123,7 +123,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="emY-iY-ZFZ">
-                                        <rect key="frame" x="11" y="163.5" width="55.5" height="64"/>
+                                        <rect key="frame" x="22.5" y="251" width="113.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="7"/>
@@ -132,7 +132,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bFb-O3-21q">
-                                        <rect key="frame" x="112.5" y="163.5" width="51" height="64"/>
+                                        <rect key="frame" x="230.5" y="251" width="104.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="8"/>
@@ -141,7 +141,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sk5-gD-pma">
-                                        <rect key="frame" x="208.5" y="163.5" width="52" height="64"/>
+                                        <rect key="frame" x="427" y="251" width="106.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="9"/>
@@ -150,7 +150,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iKy-Ya-RTs">
-                                        <rect key="frame" x="308.5" y="323.5" width="53.5" height="65"/>
+                                        <rect key="frame" x="632" y="496.5" width="109.5" height="99.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="-"/>
@@ -159,7 +159,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vgc-Q9-4gt">
-                                        <rect key="frame" x="308.5" y="243.5" width="53.5" height="65"/>
+                                        <rect key="frame" x="632" y="373.5" width="109.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="x"/>
@@ -168,7 +168,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sea-1C-8LX">
-                                        <rect key="frame" x="308.5" y="163.5" width="53.5" height="64"/>
+                                        <rect key="frame" x="632" y="251" width="109.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="÷"/>
@@ -177,7 +177,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSe-3b-O2P">
-                                        <rect key="frame" x="308.5" y="83.5" width="53.5" height="64"/>
+                                        <rect key="frame" x="632" y="128" width="109.5" height="98"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="%"/>
@@ -186,7 +186,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYb-UM-bgE">
-                                        <rect key="frame" x="308.5" y="403.5" width="53.5" height="65"/>
+                                        <rect key="frame" x="632" y="619" width="109.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="+"/>
@@ -195,7 +195,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kPI-gN-dDY">
-                                        <rect key="frame" x="11" y="403.5" width="55.5" height="64"/>
+                                        <rect key="frame" x="22.5" y="619" width="113.5" height="98.5"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388123179087" blue="0.76027014623994427" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="0"/>
@@ -204,7 +204,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8rO-JC-SP7">
-                                        <rect key="frame" x="112" y="403.5" width="52" height="65"/>
+                                        <rect key="frame" x="229.5" y="619" width="106.5" height="100"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="1" green="0.88968388119999997" blue="0.7602701462" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -233,22 +233,23 @@
         <!--History View Controller-->
         <scene sceneID="Hki-ca-Gsb">
             <objects>
-                <viewController id="NQr-AX-BT8" customClass="HistoryViewController" sceneMemberID="viewController">
+                <viewController id="NQr-AX-BT8" customClass="HistoryViewController" customModule="simple_calc" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="eYy-lH-97N"/>
                         <viewControllerLayoutGuide type="bottom" id="c2V-Mv-k7J"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="yrc-s2-B73">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tfp-NM-bka">
-                                <rect key="frame" x="67" y="91" width="240" height="484"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <scrollView autoresizesSubviews="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tfp-NM-bka">
+                                <rect key="frame" x="264" y="126" width="240" height="480"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a0D-Si-kyJ">
-                                <rect key="frame" x="6" y="63" width="40" height="38"/>
+                                <rect key="frame" x="0.0" y="62" width="86" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80042142680594519" green="0.98993156471764687" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Back"/>
                                 <connections>
                                     <segue destination="BYZ-38-t0r" kind="show" id="hHp-3J-CLQ"/>
@@ -257,10 +258,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="historyList" destination="tfp-NM-bka" id="tiI-CN-aJs"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iBj-9O-oob" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903.20000000000005" y="35.532233883058474"/>
+            <point key="canvasLocation" x="902.89855072463774" y="35.054347826086961"/>
         </scene>
     </scenes>
 </document>

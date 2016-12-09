@@ -146,7 +146,12 @@ class ViewController: UIViewController {
     }
     
     @IBAction func historyTapped(_ sender: AnyObject) {
-        printHist()
+//        printHist()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let DestViewController : HistoryViewController = segue.destination as! HistoryViewController
+        DestViewController.history = history
     }
 }
 

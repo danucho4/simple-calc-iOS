@@ -14,6 +14,7 @@
 		9087A2A11DF7E460005B7F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9087A29F1DF7E460005B7F1B /* LaunchScreen.storyboard */; };
 		9087A2AC1DF7E460005B7F1B /* simple_calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9087A2AB1DF7E460005B7F1B /* simple_calcTests.swift */; };
 		9087A2B71DF7E460005B7F1B /* simple_calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9087A2B61DF7E460005B7F1B /* simple_calcUITests.swift */; };
+		90A880FB1DFA9E55001C1AC4 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90A880FA1DFA9E55001C1AC4 /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		9087A2B21DF7E460005B7F1B /* simple-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9087A2B61DF7E460005B7F1B /* simple_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calcUITests.swift; sourceTree = "<group>"; };
 		9087A2B81DF7E460005B7F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90A880FA1DFA9E55001C1AC4 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				9087A2961DF7E460005B7F1B /* AppDelegate.swift */,
 				9087A2981DF7E460005B7F1B /* ViewController.swift */,
+				90A880FA1DFA9E55001C1AC4 /* HistoryViewController.swift */,
 				9087A29A1DF7E460005B7F1B /* Main.storyboard */,
 				9087A29D1DF7E460005B7F1B /* Assets.xcassets */,
 				9087A29F1DF7E460005B7F1B /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90A880FB1DFA9E55001C1AC4 /* HistoryViewController.swift in Sources */,
 				9087A2991DF7E460005B7F1B /* ViewController.swift in Sources */,
 				9087A2971DF7E460005B7F1B /* AppDelegate.swift in Sources */,
 			);
@@ -514,6 +518,7 @@
 				9087A2BD1DF7E460005B7F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9087A2BE1DF7E460005B7F1B /* Build configuration list for PBXNativeTarget "simple-calcTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +527,7 @@
 				9087A2C01DF7E460005B7F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9087A2C11DF7E460005B7F1B /* Build configuration list for PBXNativeTarget "simple-calcUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +536,7 @@
 				9087A2C31DF7E460005B7F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
