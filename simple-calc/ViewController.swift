@@ -10,10 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
     var isTypingNumber = false
-    var firstNumber = 0
-    var secondNumber = 0
     var operation = ""
     var numbers = [Int]()
+    var history = [String]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +23,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
     func add(left : Int, right : Int) -> Int {
         return left + right
@@ -93,26 +93,60 @@ class ViewController: UIViewController {
         isTypingNumber = false
         numbers.append(Int(display.text!)!)
         var result = 0
+        let firstNumber = numbers[0]
+        let secondNumber = numbers[1]
         
         if operation == "+" {
-            result = add(left: numbers[0], right: numbers[1])
+            result = add(left: firstNumber, right: secondNumber)
         } else if operation == "-" {
-            result = subtract(left: numbers[0], right: numbers[1])
+            result = subtract(left: firstNumber, right: secondNumber)
         } else if operation == "x" {
-            result = multiply(left: numbers[0], right: numbers[1])
+            result = multiply(left: firstNumber, right: secondNumber)
         } else if operation == "÷" {
-            result = divide(left: numbers[0], right: numbers[1])
+            result = divide(left: firstNumber, right: secondNumber)
         } else if operation == "%" {
-            result = mod(left: numbers[0], right: numbers[1])
+            result = mod(left: firstNumber, right: secondNumber)
         } else if operation == "Avg" {
             result = avg(nums: numbers)
         } else if operation == "Count" {
             result = count(nums: numbers)
         } else {
-            result = fact(num: numbers[0])
+            result = fact(num: firstNumber)
+        }
+        
+        if operation == "Fact" {
+            history.append("\(firstNumber)! = \(result)")
+        } else if operation == "Count" {
+            var hist = ""
+            for num in numbers {
+                hist += "\(num) count "
+            }
+            let index1 = hist.index(hist.endIndex, offsetBy: -6)
+            hist = hist.substring(to: index1)
+            hist += "= \(result)"
+            history.append(hist)
+        } else if operation == "Avg" {
+            var hist = ""
+            for num in numbers {
+                hist += "\(num) avg "
+            }
+            let index1 = hist.index(hist.endIndex, offsetBy: -4)
+            hist = hist.substring(to: index1)
+            hist += "= \(result)"
+            history.append(hist)
+        } else {
+            history.append("\(firstNumber) \(operation) \(secondNumber) = \(result)")
         }
         numbers.removeAll()
         display.text = "\(result)"
+    }
+    
+    func printHist() {
+        print(history)
+    }
+    
+    @IBAction func historyTapped(_ sender: AnyObject) {
+        printHist()
     }
 }
 
